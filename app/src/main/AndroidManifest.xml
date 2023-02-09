@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.fazelx.finfit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="dev.fazelx.finfit.MoneyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/finfit_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/finfit_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinFit"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="dev.fazelx.finfit.views.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.SingleTransactionActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.AllTransactionsActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.AddExpenseActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.AddIncomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.SelectTransactionActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="dev.fazelx.finfit.views.OnBoardingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
