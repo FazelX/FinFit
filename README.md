@@ -16,17 +16,15 @@ FinFit is a comprehensive and user-friendly Android app designed to help you tak
 
 # Tech Stack ✨
 
-* Kotlin
-* Android studio
-* REST-API
-* Anko toast library 
-* Figma
+* Mvvm
+* Hilt dependecy injection
 * Retrofit
 * Room DB
 * Live-data
 * Coroutines
-* Mvvm
-* Hilt dependecy injection
+* REST-API
+* Anko toast library 
+
 
 ## Contribute
 
